@@ -1,21 +1,15 @@
 <p align="center">
-  <img src="" alt="logo" width="120" height="120">
-</p>
-
-<h1 align="center">飘香水果商城</h1>
-
-<p align="center">
-  <strong>Spring Boot + Vue3 全栈水果电商平台</strong>
+  <h1 align="center">🍊 飘香水果商城</h1>
+  <p align="center"><strong>Spring Boot + Vue3 全栈水果电商平台</strong></p>
 </p>
 
 <p align="center">
-  <!-- TODO: 添加演示截图 -->
-  <img src="" alt="首页截图" width="800">
+  <img src="docs/screenshots/微信图片_20260511125213_121_632.png" alt="首页" width="800">
 </p>
 
 ---
 
-## 项目简介
+## 📖 项目简介
 
 飘香水果商城是一个全栈水果电商平台，涵盖**消费者端**、**商家端**、**管理端**三个子系统，支持商品浏览、购物车、在线聊天、优惠券、售后服务、支付宝模拟支付等功能。
 
@@ -23,7 +17,7 @@
 
 ---
 
-## 技术栈
+## 🛠 技术栈
 
 | 层级 | 技术 | 版本 |
 |------|------|------|
@@ -39,7 +33,7 @@
 
 ---
 
-## 系统架构
+## 📐 系统架构
 
 ```
 ┌─────────────────────────────────────────────┐
@@ -61,12 +55,24 @@
 
 ---
 
-## 功能模块
+## ✨ 功能模块
 
-### 消费者端
+### 🛒 消费者端
 
-<!-- TODO: 添加消费者端截图 -->
-<img src="" alt="消费者端截图" width="800">
+<p align="center">
+  <img src="docs/screenshots/微信图片_20260511125213_121_632.png" alt="首页" width="380">
+  <img src="docs/screenshots/微信图片_20260511125213_124_632.png" alt="商品浏览" width="380">
+</p>
+
+<p align="center">
+  <img src="docs/screenshots/微信图片_20260511125213_127_632.png" alt="商品详情" width="380">
+  <img src="docs/screenshots/微信图片_20260511125216_140_632.png" alt="购物车" width="380">
+</p>
+
+<p align="center">
+  <img src="docs/screenshots/微信图片_20260511125216_136_632.png" alt="下单" width="380">
+  <img src="docs/screenshots/微信图片_20260511125217_143_632.png" alt="支付" width="380">
+</p>
 
 | 模块 | 说明 |
 |------|------|
@@ -80,10 +86,22 @@
 | 售后 | 申请退款/退货 |
 | 公告 | 查看系统公告 |
 
-### 商家端
+### 🏪 商家端
 
-<!-- TODO: 添加商家端截图 -->
-<img src="" alt="商家端截图" width="800">
+<p align="center">
+  <img src="docs/screenshots/微信图片_20260511125213_122_632.png" alt="商家看板" width="380">
+  <img src="docs/screenshots/微信图片_20260511125213_123_632.png" alt="商品管理" width="380">
+</p>
+
+<p align="center">
+  <img src="docs/screenshots/微信图片_20260511125213_125_632.png" alt="订单管理" width="380">
+  <img src="docs/screenshots/微信图片_20260511125213_126_632.png" alt="店铺管理" width="380">
+</p>
+
+<p align="center">
+  <img src="docs/screenshots/微信图片_20260511125213_128_632.png" alt="评价管理" width="380">
+  <img src="docs/screenshots/微信图片_20260511125216_130_632.png" alt="聊天客服" width="380">
+</p>
 
 | 模块 | 说明 |
 |------|------|
@@ -96,10 +114,36 @@
 | 店铺管理 | 编辑店铺信息 |
 | 在线客服 | 与消费者聊天 |
 
-### 管理端
+### 🔧 管理端
 
-<!-- TODO: 添加管理端截图 -->
-<img src="" alt="管理端截图" width="800">
+<p align="center">
+  <img src="docs/screenshots/微信图片_20260511125216_131_632.png" alt="管理后台" width="380">
+  <img src="docs/screenshots/微信图片_20260511125216_132_632.png" alt="用户管理" width="380">
+</p>
+
+<p align="center">
+  <img src="docs/screenshots/微信图片_20260511125216_133_632.png" alt="商家管理" width="380">
+  <img src="docs/screenshots/微信图片_20260511125216_134_632.png" alt="商品管理" width="380">
+</p>
+
+<p align="center">
+  <img src="docs/screenshots/微信图片_20260511125216_135_632.png" alt="订单管理" width="380">
+  <img src="docs/screenshots/微信图片_20260511125216_137_632.png" alt="分类管理" width="380">
+</p>
+
+<p align="center">
+  <img src="docs/screenshots/微信图片_20260511125216_138_632.png" alt="优惠券" width="380">
+  <img src="docs/screenshots/微信图片_20260511125217_139_632.png" alt="公告" width="380">
+</p>
+
+<p align="center">
+  <img src="docs/screenshots/微信图片_20260511125217_141_632.png" alt="售后" width="380">
+  <img src="docs/screenshots/微信图片_20260511125217_142_632.png" alt="留言" width="380">
+</p>
+
+<p align="center">
+  <img src="docs/screenshots/微信图片_20260511125711_144_632.png" alt="数据总览" width="800">
+</p>
 
 | 模块 | 说明 |
 |------|------|
@@ -116,7 +160,7 @@
 
 ---
 
-## 快速开始
+## 🚀 快速开始
 
 ### 环境要求
 
@@ -128,7 +172,6 @@
 ### 1. 数据库初始化
 
 ```bash
-# 导入 SQL 脚本
 mysql -u root -p < fruit_shop.sql
 ```
 
@@ -151,7 +194,7 @@ npm run dev
 
 ---
 
-## 项目结构
+## 📁 项目结构
 
 ```
 fruit-shop/
@@ -180,19 +223,11 @@ fruit-shop/
 │       ├── layouts/            # 三端布局组件
 │       └── utils/              # API 封装
 ├── docs/                       # 项目文档
+│   ├── screenshots/            # 项目截图 (24张)
 │   ├── 项目文件梳理与答辩速讲.md
 │   └── 项目详细介绍（论文版）.md
 └── fruit_shop.sql              # 数据库初始化脚本
 ```
-
----
-
-## 待办
-
-- [ ] 添加项目截图
-- [ ] 添加演示视频链接
-- [ ] 完善 API 文档
-- [ ] 添加单元测试
 
 ---
 
