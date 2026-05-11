@@ -66,7 +66,11 @@
 
 <p align="center">
   <img src="docs/screenshots/微信图片_20260511125213_127_632.png" alt="商品详情" width="380">
-  <img src="docs/screenshots/微信图片_20260511125216_140_632.png" alt="购物车" width="380">
+  <img src="docs/screenshots/cart-1.png" alt="购物车1" width="380">
+</p>
+
+<p align="center">
+  <img src="docs/screenshots/cart-2.png" alt="购物车2" width="800">
 </p>
 
 <p align="center">
