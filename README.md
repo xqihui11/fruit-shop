@@ -1,10 +1,6 @@
 <p align="center">
-  <h1 align="center">🍊 飘香水果商城</h1>
-  <p align="center"><strong>Spring Boot + Vue3 全栈水果电商平台</strong></p>
-</p>
-
-<p align="center">
-  <img src="docs/screenshots/微信图片_20260511125213_121_632.png" alt="首页" width="800">
+  <h1>🍊 飘香水果商城</h1>
+  <p><strong>Spring Boot + Vue3 全栈水果电商平台</strong></p>
 </p>
 
 ---
@@ -14,6 +10,87 @@
 飘香水果商城是一个全栈水果电商平台，涵盖**消费者端**、**商家端**、**管理端**三个子系统，支持商品浏览、购物车、在线聊天、优惠券、售后服务、支付宝模拟支付等功能。
 
 > 本项目为计算机相关专业毕业设计作品。
+
+---
+
+## 📸 项目截图
+
+<h3>消费者端</h3>
+
+<p align="center">
+  <img src="docs/screenshots/1.1.png" width="400">
+  <img src="docs/screenshots/1.2.png" width="400">
+</p>
+
+<p align="center">
+  <img src="docs/screenshots/1.3.png" width="400">
+  <img src="docs/screenshots/1.5.png" width="400">
+</p>
+
+<p align="center">
+  <img src="docs/screenshots/1.11.png" width="400">
+  <img src="docs/screenshots/1.6.png" width="400">
+</p>
+
+<h3>商家端</h3>
+
+<p align="center">
+  <img src="docs/screenshots/2.1.png" width="400">
+  <img src="docs/screenshots/2.2.png" width="400">
+  <img src="docs/screenshots/2.3.png" width="400">
+</p>
+
+<h3>管理端</h3>
+
+<p align="center">
+  <img src="docs/screenshots/微信图片_20260511125711_144_632.png" width="800">
+</p>
+
+<p align="center">
+  <img src="docs/screenshots/3.1.png" width="400">
+  <img src="docs/screenshots/微信图片_20260511125217_140_632.png" width="400">
+</p>
+
+<p align="center">
+  <img src="docs/screenshots/1.7.png" width="250">
+  <img src="docs/screenshots/1.8.png" width="250">
+  <img src="docs/screenshots/1.9.png" width="250">
+  <img src="docs/screenshots/1.10.png" width="250">
+</p>
+
+<p align="center">
+  <img src="docs/screenshots/1.4.png" width="250">
+  <img src="docs/screenshots/微信图片_20260511125216_138_632.png" width="250">
+  <img src="docs/screenshots/微信图片_20260511125217_139_632.png" width="250">
+</p>
+
+<p align="center">
+  <img src="docs/screenshots/微信图片_20260511125217_141_632.png" width="250">
+  <img src="docs/screenshots/微信图片_20260511125217_142_632.png" width="250">
+  <img src="docs/screenshots/微信图片_20260511125217_143_632.png" width="250">
+  <img src="docs/screenshots/微信图片_20260511125216_137_632.png" width="250">
+</p>
+
+---
+
+## ✨ 功能模块
+
+| 模块 | 消费者端 | 商家端 | 管理端 |
+|------|----------|--------|--------|
+| 首页/看板 | 商品浏览、分类筛选、搜索 | 数据看板（订单、收入图表） | 全平台数据总览 |
+| 商品 | 商品列表、详情页 | 上架/下架/编辑商品 | 全平台商品管理 |
+| 购物车 | 添加/修改/删除 | — | — |
+| 订单 | 下单、支付（支付宝模拟） | 订单查看、发货 | 查看所有订单 |
+| 优惠券 | 领取和使用 | 发放店铺优惠券 | 平台优惠券管理 |
+| 售后 | 申请退款/退货 | 处理售后申请 | 全平台售后管理 |
+| 收藏 | 收藏商品、关注商家 | — | — |
+| 聊天 | 与商家实时聊天 | 与消费者聊天 | — |
+| 评价 | 发表评价 | 查看/回复评价 | — |
+| 公告 | 查看系统公告 | 查看公告 | 发布系统公告 |
+| 用户管理 | — | — | 管理消费者账号 |
+| 商家管理 | — | — | 审核和管理商家 |
+| 分类管理 | — | — | 商品分类维护 |
+| 消息管理 | — | — | 查看用户留言 |
 
 ---
 
@@ -55,119 +132,11 @@
 
 ---
 
-## ✨ 功能模块
-
-### 🛒 消费者端
-
-<p align="center">
-  <img src="docs/screenshots/微信图片_20260511125213_121_632.png" alt="首页" width="380">
-  <img src="docs/screenshots/微信图片_20260511125213_124_632.png" alt="商品浏览" width="380">
-</p>
-
-<p align="center">
-  <img src="docs/screenshots/微信图片_20260511125213_127_632.png" alt="商品详情" width="380">
-  <img src="docs/screenshots/cart-2.png" alt="购物车" width="380">
-</p>
-
-<p align="center">
-  <img src="docs/screenshots/微信图片_20260511125216_136_632.png" alt="下单" width="380">
-  <img src="docs/screenshots/微信图片_20260511125217_143_632.png" alt="支付" width="380">
-</p>
-
-| 模块 | 说明 |
-|------|------|
-| 商品浏览 | 商品列表、详情、分类筛选、搜索 |
-| 购物车 | 添加/修改/删除商品 |
-| 在线下单 | 订单确认、地址管理 |
-| 支付 | 支付宝模拟支付 |
-| 商家收藏 | 关注/取消关注商家 |
-| 在线聊天 | 与商家实时沟通 |
-| 优惠券 | 领取和使用优惠券 |
-| 售后 | 申请退款/退货 |
-| 公告 | 查看系统公告 |
-
-### 🏪 商家端
-
-<p align="center">
-  <img src="docs/screenshots/微信图片_20260511125213_122_632.png" alt="商家看板" width="380">
-  <img src="docs/screenshots/微信图片_20260511125213_123_632.png" alt="商品管理" width="380">
-</p>
-
-<p align="center">
-  <img src="docs/screenshots/微信图片_20260511125213_125_632.png" alt="订单管理" width="380">
-  <img src="docs/screenshots/微信图片_20260511125213_126_632.png" alt="店铺管理" width="380">
-</p>
-
-<p align="center">
-  <img src="docs/screenshots/微信图片_20260511125213_128_632.png" alt="评价管理" width="380">
-  <img src="docs/screenshots/微信图片_20260511125216_130_632.png" alt="聊天客服" width="380">
-</p>
-
-| 模块 | 说明 |
-|------|------|
-| 数据看板 | 今日订单、收入统计图表 |
-| 商品管理 | 商品的上架/下架/编辑 |
-| 订单管理 | 订单查看、发货 |
-| 售后处理 | 处理退款/退货申请 |
-| 评价管理 | 查看/回复用户评价 |
-| 优惠券 | 发放店铺优惠券 |
-| 店铺管理 | 编辑店铺信息 |
-| 在线客服 | 与消费者聊天 |
-
-### 🔧 管理端
-
-<p align="center">
-  <img src="docs/screenshots/微信图片_20260511125216_131_632.png" alt="管理后台" width="380">
-  <img src="docs/screenshots/微信图片_20260511125216_132_632.png" alt="用户管理" width="380">
-</p>
-
-<p align="center">
-  <img src="docs/screenshots/微信图片_20260511125216_133_632.png" alt="商家管理" width="380">
-  <img src="docs/screenshots/微信图片_20260511125216_134_632.png" alt="商品管理" width="380">
-</p>
-
-<p align="center">
-  <img src="docs/screenshots/微信图片_20260511125216_135_632.png" alt="订单管理" width="380">
-  <img src="docs/screenshots/微信图片_20260511125216_137_632.png" alt="分类管理" width="380">
-</p>
-
-<p align="center">
-  <img src="docs/screenshots/微信图片_20260511125216_138_632.png" alt="优惠券" width="380">
-  <img src="docs/screenshots/微信图片_20260511125217_139_632.png" alt="公告" width="380">
-</p>
-
-<p align="center">
-  <img src="docs/screenshots/微信图片_20260511125217_141_632.png" alt="售后" width="380">
-  <img src="docs/screenshots/微信图片_20260511125217_142_632.png" alt="留言" width="380">
-</p>
-
-<p align="center">
-  <img src="docs/screenshots/微信图片_20260511125711_144_632.png" alt="数据总览" width="800">
-</p>
-
-| 模块 | 说明 |
-|------|------|
-| 数据总览 | 全平台数据统计 |
-| 用户管理 | 管理消费者账号 |
-| 商家管理 | 审核和管理商家 |
-| 商品管理 | 全平台商品管理 |
-| 订单管理 | 查看所有订单 |
-| 分类管理 | 商品分类维护 |
-| 优惠券管理 | 平台优惠券 |
-| 公告管理 | 发布系统公告 |
-| 售后管理 | 全平台售后处理 |
-| 消息管理 | 查看用户留言 |
-
----
-
 ## 🚀 快速开始
 
 ### 环境要求
 
-- JDK 1.8+
-- MySQL 8.0+
-- Node.js 16+
-- Maven 3.6+
+- JDK 1.8+  ·  MySQL 8.0+  ·  Node.js 16+  ·  Maven 3.6+
 
 ### 1. 数据库初始化
 
@@ -180,7 +149,7 @@ mysql -u root -p < fruit_shop.sql
 ```bash
 cd backend
 mvn spring-boot:run
-# 后端运行在 http://localhost:8080/api
+# 运行在 http://localhost:8080/api
 ```
 
 ### 3. 启动前端
@@ -189,7 +158,7 @@ mvn spring-boot:run
 cd frontend
 npm install
 npm run dev
-# 前端运行在 http://localhost:3000
+# 运行在 http://localhost:3000
 ```
 
 ---
@@ -199,33 +168,25 @@ npm run dev
 ```
 fruit-shop/
 ├── backend/                    # Spring Boot 后端
-│   ├── pom.xml                 # Maven 依赖配置
-│   └── src/main/
-│       ├── java/com/fruitshop/
-│       │   ├── common/         # 工具类 (JWT、密码、返回格式)
-│       │   ├── config/         # 配置类 (跨域、拦截器、支付宝)
-│       │   ├── controller/     # 接口控制器 (26个)
-│       │   ├── entity/         # 数据实体 (对应数据库表)
-│       │   ├── interceptor/    # 鉴权拦截器
-│       │   ├── mapper/         # MyBatis-Plus 数据访问层
-│       │   └── service/        # 业务逻辑层
-│       └── resources/
-│           └── application.yml # 主配置文件
+│   ├── pom.xml                 # Maven 依赖
+│   └── src/main/java/com/fruitshop/
+│       ├── common/             # 工具类 (JWT、密码、返回格式)
+│       ├── config/             # 配置类 (跨域、拦截器、支付宝)
+│       ├── controller/         # 接口控制器 (26个)
+│       ├── entity/             # 数据实体
+│       ├── interceptor/        # 鉴权拦截器
+│       ├── mapper/             # MyBatis-Plus 数据访问层
+│       └── service/            # 业务逻辑层
 ├── frontend/                   # Vue3 前端
 │   └── src/
 │       ├── views/              # 页面视图 (40+ 页面)
-│       │   ├── *.vue           # 消费者端页面
-│       │   ├── admin/          # 管理端页面
-│       │   └── merchant/       # 商家端页面
-│       ├── router/             # 路由配置 + 三端鉴权守卫
+│       │   ├── *.vue           # 消费者端
+│       │   ├── admin/          # 管理端
+│       │   └── merchant/       # 商家端
+│       ├── router/             # 路由 + 三端鉴权守卫
 │       ├── stores/             # Pinia 状态管理
-│       ├── components/         # 可复用组件
-│       ├── layouts/            # 三端布局组件
 │       └── utils/              # API 封装
-├── docs/                       # 项目文档
-│   ├── screenshots/            # 项目截图 (24张)
-│   ├── 项目文件梳理与答辩速讲.md
-│   └── 项目详细介绍（论文版）.md
+├── docs/                       # 项目文档与截图
 └── fruit_shop.sql              # 数据库初始化脚本
 ```
 
