@@ -1,0 +1,18 @@
+package com.fruitshop.entity;
+
+import com.baomidou.mybatisplus.annotation.IdType;
+import com.baomidou.mybatisplus.annotation.TableId;
+import com.baomidou.mybatisplus.annotation.TableName;
+import lombok.Data;
+import java.time.LocalDateTime;
+
+@Data
+@TableName("review_likes")
+public class ReviewLike {
+    @TableId(type = IdType.AUTO)
+    private Long id;
+    private Long reviewId;
+    private Long userId;
+    private Integer type; // 点赞类型：1-认同，2-不认同
+    private LocalDateTime createTime;
+}
